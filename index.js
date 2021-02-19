@@ -142,7 +142,7 @@ function getLastReview(arr) {
   let indexLast = arr.length - 1; 
   return arr[indexLast].name + " gave the restaurant a " + arr[indexLast].rating + " star review, and their feedback was: " + arr[indexLast].feedback;
   
-    
+       
 } 
 getLastReview(reviews);  
 
